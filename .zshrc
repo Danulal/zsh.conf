@@ -34,7 +34,7 @@ alias ll='ls -alF' # basic ls qol changes
 alias la='ls -A'   # basic ls qol changes
 alias l='ls -CF'   # basic ls qol changes
 alias ls="ls --color" # make ls colorful
-alias batcat="bat"
+alias bat="batcat"
 
 # case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
