@@ -37,6 +37,9 @@ alias ls="ls --color" # make ls colorful
 alias bat="batcat"
 alias icat="kitty +kitten icat"
 
+#  keybinds
+bindkey "^[[3~" delete-char
+
 # case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' menu select
