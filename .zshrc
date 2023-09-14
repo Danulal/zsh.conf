@@ -34,7 +34,7 @@ alias ll='ls -alF' # basic ls qol changes
 alias la='ls -A'   # basic ls qol changes
 alias l='ls -CF'   # basic ls qol changes
 alias ls="ls --color" # make ls colorful
-alias bat="batcat"
+#alias bat="batcat"
 alias nf="neofetch"
 alias icat="kitty +kitten icat"
 alias grep="grep --color=auto -i"
