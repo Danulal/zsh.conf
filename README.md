@@ -1,5 +1,5 @@
 # Danulal's personal zsh config files
-clone this repo to your home folder and symlink the .zshrc to replace the old .zshrc
+clone this repo with ```git clone https://github.com/Danulal/zsh.conf ~/.zsh && cd ~/.zsh && git submodule update --init``` to your home folder and symlink the .zshrc to replace the old .zshrc
 
 ## Plugins used:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
