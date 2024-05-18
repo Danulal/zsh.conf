@@ -41,6 +41,7 @@ alias grep="grep --color=auto -i"
 alias cp="cp -i"
 alias rm="rm -i"
 alias mv="mv -i"
+alias zyp="zypper"
 
 #  keybinds
 bindkey "^[[3~" delete-char
