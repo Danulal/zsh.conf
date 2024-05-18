@@ -42,6 +42,7 @@ alias cp="cp -i"
 alias rm="rm -i"
 alias mv="mv -i"
 alias zyp="zypper"
+alias sudo="sudo "
 
 #  keybinds
 bindkey "^[[3~" delete-char
