@@ -1,9 +1,6 @@
 [submodule "fzf-tab"]
 	path = fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab
-[submodule "powerlevel10k"]
-	path = powerlevel10k
-	url = https://github.com/romkatv/powerlevel10k
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
