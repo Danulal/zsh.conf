@@ -29,6 +29,7 @@ alias l='ls -CF'   # basic ls qol changes
 alias ls="ls --color" # make ls colorful
 #alias bat="batcat"
 alias nf="neofetch"
+alias ff="fastfetch"
 alias icat="kitty +kitten icat"
 alias grep="grep --color=auto -i"
 alias cp="cp -i"
