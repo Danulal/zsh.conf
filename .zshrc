@@ -17,8 +17,8 @@ compinit
 # plugins
 eval "$(starship init zsh)" # initialize starship.rs
 source ~/.config/zsh/fzf-tab/fzf-tab.plugin.zsh # fuzzy search autocomplete
-source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh # fish like syntax highlighting
-source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh # fish like autosuggestions
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh # fish like syntax highlighting
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh # fish like autosuggestions
 source ~/.config/zsh/omz-steals/sudo.zsh # prepend sudo to current or last command with double clicking esc
 source ~/.config/zsh/omz-steals/history.zsh # quickly search history with hs or hsi
 

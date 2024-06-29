@@ -23,6 +23,8 @@ If you get an error along the lines of ```bad math expression: illegal character
 
 ## Dependencies
 - zsh
+- zsh-syntax-highlighting
+- zsh-autosuggestions
 - fzf
 - starship
 
