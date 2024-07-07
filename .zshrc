@@ -23,7 +23,7 @@ source ~/.config/zsh/omz-steals/sudo.zsh # prepend sudo to current or last comma
 source ~/.config/zsh/omz-steals/history.zsh # quickly search history with hs or hsi
 
 # alias
-alias ll='ls -alF' # basic ls qol changes
+alias ll='ls -lFh' # basic ls qol changes
 alias la='ls -A'   # basic ls qol changes
 alias l='ls -CF'   # basic ls qol changes
 alias ls="ls --color" # make ls colorful
