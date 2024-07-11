@@ -4,6 +4,10 @@ Clone this repo into your config folder
 ```
 git clone https://github.com/Danulal/zsh.conf ~/.config/zsh && cd ~/.config/zsh && git submodule update --init
 ```
+If using debian or other distro that uses that path for ```zsh-autosuggestions``` and ```zsh-syntax-highlighting``` checkout the debian branch
+```
+git checkout debian
+```
 Backup your old config if necessary
 ```
 mv ~/.zshrc ~/.zshrc.bak & mv ~/.config/starship.toml ~/.config/starship.toml.bak
