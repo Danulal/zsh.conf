@@ -5,6 +5,7 @@ SAVEHIST=1000
 setopt autocd
 unsetopt nomatch
 unsetopt beep notify
+setopt correct
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
