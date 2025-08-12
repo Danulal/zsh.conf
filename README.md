@@ -1,6 +1,13 @@
 # Danulal's personal zsh config files
 ## Installation
+
 ## This is the debian(and debian based) branch
+### One Command Install
+- Debian 13 (will delete old config)
+```
+sudo apt install -y zsh zsh-syntax-highlighting zsh-autosuggestions fzf starship git && git clone https://github.com/Danulal/zsh.conf ~/.config/zsh && cd ~/.config/zsh && git submodule update --init && git checkout debian && rm -f ~/.zshrc ~/.config/starship.toml && ln -s ~/.config/zsh/starship.toml ~/.config/starship.toml && ln -s ~/.config/zsh/.zshrc ~/.zshrc && chsh -s /bin/zsh && exec zsh
+```
+### Manual Install
 Clone this repo into your config folder
 ```
 git clone https://github.com/Danulal/zsh.conf ~/.config/zsh && cd ~/.config/zsh && git submodule update --init
